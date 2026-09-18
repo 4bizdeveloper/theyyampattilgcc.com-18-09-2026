@@ -1,0 +1,27 @@
+User-agent: *
+Allow: /
+Allow: /*/
+
+# Block non-slash URLs from crawling to prevent duplicate canonical loops
+Disallow: /*?[^/]$
+Disallow: /*[^/]$
+
+# Block specific backend scripts and forms
+Disallow: /send-mail.php
+
+# Block sensitive directories and system files
+Disallow: /config/
+Disallow: /includes/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /vendor/
+Disallow: /admin/
+Disallow: /backend/
+Disallow: *.inc$
+Disallow: *.log$
+Disallow: *.sql$
+
+Sitemap: https://theyyampattilgcc.com/sitemap.xml
