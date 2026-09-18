@@ -335,7 +335,7 @@ header a { text-decoration: none !important; }
       <a href="product/luxury-dressing-rooms-dubai/">Dressing Room</a>
       <a href="product/luxury-bed-panels/">Bed Panels</a>
       <a href="product/premium-wall-panels-dubai/">Wall Panels</a>
-      <a href="product/luxury-living-room-furniture-dubai/" role="menuitem">Welcome Unit</a>
+      <a href="product/luxury-living-room-furniture-dubai/">Welcome Unit</a>
     </div>
     <div class="mobile-section-label" aria-hidden="true">Resources</div>
     <div class="mobile-sub">
